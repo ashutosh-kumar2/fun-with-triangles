@@ -37,7 +37,7 @@ body{
     padding: 1rem 0rem;
     font-size: 1.2rem;
     display: block;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .navigation .link{
@@ -47,6 +47,10 @@ body{
 .navigation .link-active{
     font-weight: bold;
 }
+
+/* .navigation .list-inline-item{
+  margin-bottom: 2rem;
+} */
 
 /** lists **/
 
@@ -59,6 +63,7 @@ body{
 .list-inline-item{
     display: inline;
     padding: 0rem;
+    margin-bottom: 2rem;
 }
 
 /** links **/
