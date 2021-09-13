@@ -21,7 +21,7 @@ body{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 0.2rem;
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -41,6 +41,7 @@ body{
 
 .navigation .link{
     color: white;
+    padding: 0.5rem 0.5rem;
 }
 
 .navigation .link-active{
