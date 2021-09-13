@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+    --primary-color: #3B82F6;
+}
+
+body{
+    font-family: 'Azeret Mono', monospace;
+    text-align: center;
+}
+
+/** navigation **/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+    text-align: left;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** lists **/
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 0; /** very important!! **/
+}
+
+.list-inline-item{
+    display: inline;
+    padding: 0rem;
+}
+
+/** links **/
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/*  Input */
+
+.input-label {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .side-input, .angle-input {
+    display: block;
+    font-size: 1rem;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 40%;
+    text-align: center;
+  }
+  
+  .btn-check {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1.5rem auto;
+    display: block;
+  }
+  
+  .output {
+    font-size: x-large;
+    margin: 1rem;
+  }
+
+ /* Main */
+
+main {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  main h1 {
+    margin: 1rem;
+    padding: 2rem 0rem;
+    font-size: 1.4rem;
+  }
+
+  .rules{
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
+      font-weight: bold;
+  }
+
+  .quiz-main {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .question-container {
+    width: 85%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 1rem 0;
+  }
+  
+  .question-container p {
+    margin: 1rem 0;
+  }
+
+  /* Output */
+
+  #output {
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+
+  /** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer p{
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+/** footer icons **/
+
+.icon {
+    margin-top: 0.625rem;
+	width: 40px;
+	height: 40px;
+}
