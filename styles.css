@@ -21,7 +21,7 @@ body{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.2rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -34,9 +34,10 @@ body{
 
 .navigation .nav-pills{
     text-align: right;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     font-size: 1.2rem;
     display: block;
+    margin-bottom: 2rem;
 }
 
 .navigation .link{
