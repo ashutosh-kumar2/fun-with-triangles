@@ -62,8 +62,7 @@ body{
 
 .list-inline-item{
     display: inline;
-    padding: 0rem;
-    margin-bottom: 2rem;
+    padding: 2rem 0rem;
 }
 
 /** links **/
