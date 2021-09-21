@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 * {
     padding: 0;
@@ -12,7 +11,7 @@
 }
 
 body{
-    font-family: 'Azeret Mono', monospace;
+    font-family: 'Urbanist', sans-serif;
     text-align: center;
 }
 
