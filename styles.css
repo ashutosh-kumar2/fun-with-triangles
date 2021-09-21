@@ -7,7 +7,7 @@
   }
 
 :root{
-    --primary-color: #3B82F6;
+    --primary-color: #34D399;
 }
 
 body{
@@ -19,7 +19,6 @@ body{
 
 .navigation{
     background-color: var(--primary-color);
-    color: white;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
 }
@@ -29,6 +28,7 @@ body{
     font-size: 1.5rem;
     padding: 1rem 0rem;
     text-align: left;
+    color: black;
 }
 
 .navigation .nav-pills{
@@ -39,7 +39,7 @@ body{
 }
 
 .navigation .link{
-    color: white;
+    color: black;
     padding: 0.5rem 0.5rem;
 }
 
@@ -94,15 +94,15 @@ body{
   
   .btn-check {
     background: var(--primary-color);
-    border: none;
-    color: #fff;
-    padding: 0.7rem 1rem;
+    border: none; 
+    color: black;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
-    outline: #fff;
     margin: 1.5rem auto;
     display: block;
+    font-family: 'Urbanist', sans-serif;
   }
   
   .output {
@@ -160,7 +160,6 @@ main {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1rem 1rem;
-    color: white;
     border-top-right-radius: 1rem;
     width: 100%;
 }
@@ -168,11 +167,10 @@ main {
 .footer p{
     font-size: 1.4rem;
     padding: 1rem 0rem;
-    color: white;
+    color: black;
 }
 
 .footer .link{
-    color: white;
     padding: 0.2rem 0.4rem;
     display: inline;
 }
