@@ -185,8 +185,7 @@ main {
 
 .icon {
   margin-top: 0.625rem;
-	width: 45px;
-	height: 45px;
-  /* padding: 0.2rem 0.4rem; */
+	width: 40px;
+	height: 40px;
   display: inline;
 }
