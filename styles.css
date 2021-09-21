@@ -57,7 +57,7 @@ body{
 
 .list-inline-item{
     display: inline;
-    padding: 0rem;
+    padding: 0rem 0.4rem;
 }
 
 /** links **/
@@ -162,17 +162,19 @@ main {
     padding: 1rem 1rem;
     color: white;
     border-top-right-radius: 1rem;
+    width: 100%;
 }
 
 .footer p{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 1rem 0rem;
     color: white;
 }
 
 .footer .link{
     color: white;
-    padding: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    display: inline;
 }
 
 .footer ul{
@@ -183,6 +185,8 @@ main {
 
 .icon {
   margin-top: 0.625rem;
-	width: 40px;
-	height: 40px;
+	width: 45px;
+	height: 45px;
+  padding: 0.2rem 0.4rem;
+  display: inline;
 }
